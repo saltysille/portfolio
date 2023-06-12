@@ -126,7 +126,7 @@ body{
 
     .portfolio_heading{
         margin-bottom: 15rem;
-    margin-left: 43rem;
+    margin-left: 31rem;
     
     }
 
@@ -137,10 +137,10 @@ body{
 @media screen and (min-width: 1440px) {
     .portfolio_heading{
         margin-left: 75rem;
-        font-size: 3rem;
-        margin-bottom: 28rem;
+        font-size: 2rem;
+        margin-bottom: 18rem;
         margin-right: 0;
-        margin-top: 0;
+        margin-top: -10rem;
         
         }
         
@@ -150,4 +150,46 @@ body{
             
         }
 }
+
+  /* Button */
+
+  .button_container{
+    display: flex;
+}
+
+.button{
+    width: 10%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.button_2{
+  width: 10%;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+ @media screen and (min-width: 820px) {
+    .button{
+  
+        width: 5%;
+    }
+
+    .button_2{
+        width: 5%;
+    }
+} 
+
+
+
+@media screen and (min-width: 1140px) {
+
+   .button{
+    margin-top: 0;
+    width: 5%;
+    margin-bottom: 3rem;
+   }
+
+}
+
 
