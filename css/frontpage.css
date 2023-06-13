@@ -45,9 +45,7 @@ body{
     
 }
 
-.button_container{
-    display: flex;
-}
+
 
 
 
@@ -153,9 +151,7 @@ body{
 
   /* Button */
 
-  .button_container{
-    display: flex;
-}
+
 
 .button{
     width: 10%;
@@ -187,7 +183,7 @@ body{
    .button{
     margin-top: 0;
     width: 5%;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
    }
 
 }
@@ -217,7 +213,7 @@ body{
 
 @media screen and (min-width: 1024px) {
     .logo a{
-      color: var(--whitetext);
+    color: var(--whitetext);
     font-size: 4rem;
     margin-left: 9rem;
     

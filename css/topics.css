@@ -1,3 +1,4 @@
+
 /* Background */
 
 body{
@@ -338,6 +339,12 @@ li a{
     margin: 0 auto;
 }
 
+.img_5{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 .column_2 {
     display: flex;
     display: flex;
@@ -375,6 +382,11 @@ li a{
     .img{
         margin-top: 8rem;
         width: 100%;
+    }
+
+    .img_5{
+        width: 100%;
+        margin-top: 1rem;
     }
       
      
